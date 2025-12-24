@@ -1,8 +1,16 @@
+<div align="center">
+
 # ComfyUI AI Toolkits
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/twn39/ComfyUI-AI-Toolkits?style=flat-square) ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square) ![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg?style=flat-square) ![Version](https://img.shields.io/badge/version-0.1.0-orange.svg?style=flat-square) ![ComfyUI](https://img.shields.io/badge/ComfyUI-✓-green.svg?style=flat-square)
 
+![Screenshot](screenshot/screenshot.png)
+
 A comprehensive collection of AI-powered nodes for ComfyUI, enabling seamless integration of large language models, image generation, data analysis, financial data, visualization, and cloud storage within your workflows.
+
+**[中文文档](README.zh-CN.md)**
+
+</div>
 
 ## Features
 
