@@ -1,0 +1,76 @@
+[project]
+name = "comfyui-ai-toolkits"
+version = "0.1.0"
+description = "A comprehensive collection of AI-powered nodes for ComfyUI, enabling seamless integration of large language models, image generation, data analysis, financial data, visualization, and cloud storage within your workflows."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "CC-BY-NC-SA-4.0"}
+authors = [
+    {name = "twn39"}
+]
+keywords = [
+    "comfyui",
+    "ai",
+    "llm",
+    "image-generation",
+    "data-analysis",
+    "visualization",
+    "finance",
+    "cloud-storage",
+    "openai",
+    "modelscope",
+    "huggingface",
+    "deepseek",
+    "qwen",
+    "openrouter",
+    "agent",
+    "workflow"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Operating System :: OS Independent",
+    "Framework :: ComfyUI"
+]
+dependencies = [
+    "agno>=2.3.14",
+    "akshare>=1.17.99",
+    "bokeh>=3.8.1",
+    "boto3>=1.42.12",
+    "dashscope>=1.25.4",
+    "datasets>=4.4.1",
+    "httpx>=0.28.1",
+    "huggingface-hub>=0.34.0,<1.0",
+    "markdown2>=2.5.4",
+    "matplotlib>=3.10.8",
+    "mplfinance>=0.12.10b0",
+    "numexpr>=2.14.1",
+    "numpy>=2.0.2",
+    "openai>=2.13.0",
+    "pandas>=2.3.3",
+    "pillow>=12.0.0",
+    "pip>=25.3",
+    "plotly>=6.5.0",
+    "python-dateutil>=2.9.0.post0",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "torch>=2.5.1",
+    "torchaudio>=2.5.1",
+    "torchvision>=0.20.1",
+    "yfinance>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/twn39/ComfyUI-AI-Toolkits"
+Documentation = "https://github.com/twn39/ComfyUI-AI-Toolkits#readme"
+Repository = "https://github.com/twn39/ComfyUI-AI-Toolkits.git"
+Issues = "https://github.com/twn39/ComfyUI-AI-Toolkits/issues"
