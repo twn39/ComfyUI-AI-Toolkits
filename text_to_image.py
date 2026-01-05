@@ -27,6 +27,7 @@ class ModelScopeTextToImage:
                 "steps": ("INT", {"default": 25, "min": 1, "max": 100, "step": 1}),
                 "model": (
                     [
+                        "Qwen/Qwen-Image-2512",
                         "Tongyi-MAI/Z-Image-Turbo",
                         "black-forest-labs/FLUX.2-dev",
                         "black-forest-labs/FLUX.1-Krea-dev",
@@ -42,7 +43,7 @@ class ModelScopeTextToImage:
                         "sd1995/lora_ikoras_kontext",
                         "DonRat/MAJICFLUS_Superplastic",
                     ],
-                    {"default": "Tongyi-MAI/Z-Image-Turbo"},
+                    {"default": "Qwen/Qwen-Image-2512"},
                 ),
             },
             "optional": {
@@ -71,7 +72,7 @@ class ModelScopeTextToImage:
         width: int,
         height: int,
         steps: int = 25,
-        model="black-forest-labs/FLUX.1-Krea-dev",
+        model="Qwen/Qwen-Image-2512",
         seed: int = 0,
     ):
         payload = {
